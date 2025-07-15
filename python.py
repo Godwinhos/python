@@ -1,0 +1,12 @@
+import time
+print("******************")
+print("cohort 3 microwave")
+print("*******************")
+print("1. open the microwave")
+print("2. put the rice")
+print("3. set time")
+time_to_microwave = float(input("duration: \n ")
+print("your rice will be ready in", time_to_microwave, "min(s)")
+print("4. i will let you know when it is ready")
+time.sleep(time_to_microwave * 60)
+print("5. your food is ready")
